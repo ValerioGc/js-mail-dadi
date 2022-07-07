@@ -6,11 +6,15 @@
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 /* Corpo Pagina */
 header {
-    width: 50%;
-    height: 30%;
+    width: 50vw;
+    height: 60vh;
     border: 2px solid black;
     margin: 50px auto;
     border-radius: 25px;
@@ -18,8 +22,8 @@ header {
 }
 header > * {
     display: block;
-    margin: 30px;
-        text-align: center;
+    margin: 50px;
+    text-align: center;
 }
 h1 {
     text-shadow: 1px 2px 4px rgb(96, 96, 96);
