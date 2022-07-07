@@ -12,7 +12,7 @@ body {
     height: 100vh;
 }
 /* Corpo Pagina */
-header {
+main {
     width: 50vw;
     height: 60vh;
     border: 2px solid black;
@@ -20,7 +20,7 @@ header {
     border-radius: 25px;
     background-color: blanchedalmond;
 }
-header > * {
+main > * {
     display: block;
     margin: 50px;
     text-align: center;
@@ -49,8 +49,24 @@ button {
 }
 button,
 input,
-header,
+main,
 #container,
 #risultato {
     box-shadow: 2px 2px 5px #000;
+}
+.jello {
+    animation: jello-vertical 0.9s both;
+}
+@keyframes jello-vertical {
+    0% {transform: scale3d(1, 1, 1);}
+    30% {transform: scale3d(0.75, 1.25, 1);}
+    40% {transform: scale3d(1.25, 0.75, 1);}
+    50% {transform: scale3d(0.85, 1.15, 1);}
+    65% {transform: scale3d(1.05, 0.95, 1);}
+    75% {transform: scale3d(0.95, 1.05, 1);}
+    100% {transform: scale3d(1, 1, 1);}
+}
+.t_und {
+    text-decoration: underline;
+    font-weight: bold;
 }
