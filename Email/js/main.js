@@ -1,11 +1,11 @@
 const mail_auth = ['prova@mail.it', 'prova2@mail.it', 'prova3@mail.it', 'prova4@mail.it', 'prova5@mail.it'];
 const btn = document.getElementById('submit');
+let value_l = mail_auth.length;
+for (let i = 0; i < value_l; i++) {
+    console.log('Mail Autorizzata:' + mail_auth[i]);
+}
 btn.addEventListener('click',
     function () {
-        let value_l = mail_auth.length;
-        for (let i = 0; i < value_l; i++) {
-            console.log('Mail Autorizzata:' + mail_auth[i]);
-        }
         let us_in = document.getElementById('user_input');
         let user_input = us_in.value;
         if (!isNaN(user_input)) {
@@ -25,7 +25,6 @@ btn.addEventListener('click',
                 message.style.padding = ' 150px 0';
                 btn.style.display = "none";
                 us_in.style.display = "none";
-                
             } else {
                 message.innerHTML = 'Nessun Riscontro! <br> <p>Reinserisci la tua mail e clicca sul bottone per registrarti.</p>';
                 messagecont.innerHTML = 
@@ -56,7 +55,9 @@ btn.addEventListener('click',
                             `;
                             messagecont.classList = "jello";
                             document.getElementById('int').classList = "jello t_und";
-                            console.log(mail_auth);
+                            for (let i = 0; i < (value_l + 1); i++) {
+                                console.log('Mail Autorizzata:' + mail_auth[i]);
+                            }
                         });
                 });
             }
