@@ -5,7 +5,7 @@
 }
 body {
     background-color: rgb(64, 98, 249);
-    font-family: 'Open Sans' sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 .pad-y {
     padding: 20px 0;
