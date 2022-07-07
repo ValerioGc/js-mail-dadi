@@ -26,7 +26,6 @@ btn.addEventListener('click',
                 btn.style.display = "none";
                 us_in.style.display = "none";
             } else {
-                message.innerHTML = 'Nessun Riscontro! <br> <p>Reinserisci la tua mail e clicca sul bottone per registrarti.</p>';
                 messagecont.innerHTML = 
                 `
                 <h1 style="color:red">Nessun Riscontro!</h1> <br> 
