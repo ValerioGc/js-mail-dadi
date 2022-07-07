@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: lightgreen;
+}
+/* Corpo Pagina */
+header {
+    width: 50%;
+    height: 30%;
+    border: 2px solid black;
+    margin: 50px auto;
+    border-radius: 25px;
+    background-color: blanchedalmond;
+}
+header > * {
+    display: block;
+    margin: 30px;
+        text-align: center;
+}
+h1 {
+    text-shadow: 1px 2px 4px rgb(96, 96, 96);
+}
+label {
+    font-size: 20px;
+    font-weight: bold;
+}
+input {
+    width: 250px;
+    height: 30px;
+
+}
+input,
+button {
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+    border-radius: 25px;
+}
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+button,
+input,
+header,
+#container,
+#risultato {
+    box-shadow: 2px 2px 5px #000;
+}
