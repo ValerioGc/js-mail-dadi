@@ -3,7 +3,7 @@
 
 > _Excercises about Dom elements manipulation:_
 > - Mail: Operation with Strings
-> - Dadi: Operation with and Numbers
+> - Dadi: Operation with Numbers
 
 
 <br/>
@@ -19,5 +19,5 @@
 
 ## *_Previews:_*
 
-![Preview 1a](/previews/preview-mail.gif)
-![Preview 1a](/previews/preview-dadi.gif)
+![Preview 1a](/previews/mail.gif)
+![Preview 1a](/previews/dadi.gif)
