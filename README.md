@@ -19,5 +19,5 @@
 
 ## *_Previews:_*
 
-![Preview 1a](/previews/mail.gif)
-![Preview 1a](/previews/dadi.gif)
+![Preview 1a](/previews/mail.png)
+![Preview 1a](/previews/dadi.png)
